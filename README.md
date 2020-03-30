@@ -21,9 +21,7 @@ $ npm install
 
 ```bash
 # 选定要开发的平台
-$ npm run dev -- wechat
-# 或者用 yarn
-$ yarn dev wechat
+$ npm run dev wechat
 ```
 
 使用小程序开发者工具打开项目下的 `dist/[target]` 目录。
@@ -32,9 +30,7 @@ $ yarn dev wechat
 
 ```bash
 # 选定要开发的平台
-$ npm run build -- wechat
-# 或者用 yarn
-$ yarn build wechat
+$ npm run build alipay
 ```
 
 使用小程序开发者工具上传版本。
