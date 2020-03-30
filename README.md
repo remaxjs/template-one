@@ -24,7 +24,7 @@ $ npm install
 $ npm run dev wechat
 ```
 
-使用小程序开发者工具打开项目下的 `dist/[target]` 目录。
+使用小程序开发者工具打开项目根目录。
 
 ## 发布
 
