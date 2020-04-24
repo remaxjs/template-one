@@ -9,18 +9,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "remax build -w -t ",
-    "clean": "rimraf dist",
-    "prebuild": "npm run clean",
     "build": "cross-env NODE_ENV=production remax build -t "
   },
   "dependencies": {
     "react": "^16.8.6",
-    "remax": "^1.19.0",
-    "rimraf": "^2.6.3"
+    "remax": "^2.0.0"
   },
   "devDependencies": {
-    "chokidar": "^2.1.8",
-    "cross-env": "^6.0.3",
-    "remax-cli": "^1.19.0"
+    "cross-env": "^6.0.3"
   }
 }
