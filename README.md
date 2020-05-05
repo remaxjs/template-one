@@ -30,7 +30,7 @@ $ npm run dev wechat
 
 ```bash
 # 选定要开发的平台
-$ npm run build alipay
+$ npm run build wechat
 ```
 
 使用小程序开发者工具上传版本。
